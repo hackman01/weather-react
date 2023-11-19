@@ -12,7 +12,7 @@
     
     margin: 50px auto 50px auto; 
     width: 80%;
-    height: 160px;
+    height: 165px;
     
    border-style: none;
    border-bottom-style: solid ;
@@ -39,6 +39,7 @@
 }
 .searchIcon{
     position: relative;
+    background-color: rgb(221, 219, 219);
     right: 40px;
     height: 20px;
     width: 20px;

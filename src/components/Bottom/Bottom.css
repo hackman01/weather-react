@@ -10,11 +10,12 @@
     width: 80%;
     height: 20rem;
     
+    
     display: flex;
     margin: auto;
     align-items: baseline;
     position: relative;
-    top: 20px;
+    top: 40px;
     
   
 }

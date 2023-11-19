@@ -7,7 +7,7 @@ import Bottom from '../Bottom/Bottom';
 
 
 
-const apikey=process.env.REACT_APP_API_KEY
+const apikey=process.env.REACT_APP_API_KEY;
 
 
 
@@ -22,13 +22,13 @@ export default function Middle() {
   
    const[citi,setCiti]=useState('')
    const[list,setList]=useState([])
-   const[response,setResponse]=useState({});
+
    const[coord,setCoord]=useState({});
     
  const submit= async ()=>{
   const res=await axios.get(url);
   
-  setResponse(res.data);
+ 
   setCiti(res.data.city);
   setCoord(res.data.city.coord)
   setList(res.data.list);
@@ -75,17 +75,7 @@ let sunset = citi.sunset;
 
 const data={arr,timezone,sunrise,sunset}
 
-const coordToDir = (lat,long)=>{
-  const earthRadius=6371;
-  const latRad=(lat*Math.PI)/180;
-  const longRad=(long*Math.PI)/180;
 
-  const north = 6371*((lat*Math.PI)/180);
-  const east = 6371*((long*Math.PI)/180)*Math.cos((lat*Math.PI)/180);
-
-  return { north,east };
-}
-console.log(citi.name)
 
 
 // const [coords,setCoords] = useState({});
