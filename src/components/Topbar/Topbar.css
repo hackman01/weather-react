@@ -1,0 +1,66 @@
+.container{
+    
+    background-color: rgb(43, 49, 49);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+   
+    box-shadow: 0px 3px 5px 0px #888888;
+}
+.fluid-container{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    height: 50px;
+    align-items: center;
+
+}
+.logo{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:800;
+    color: white;
+}
+.reload{
+    display: block;
+    margin: auto;
+    
+    height: 20px;
+    width: 20px;
+}
+.reload-btn{
+    
+       
+
+    background-color: rgb(43, 49, 49);
+   font-weight: 600;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   border-style: none;
+   cursor: pointer;
+   border-radius: 10px;
+   padding: 5px;
+ 
+   
+}
+.reload-btn:hover{
+    background-color: rgb(67, 73, 73);
+    
+}
+.reload-btn:active{
+    background-color: rgb(31, 34, 34);
+}
+
+@media only screen and (min-width: 480px) {
+    .fluid-container{
+        width: 80%;
+    }
+    .reload-btn{
+        display: flex;
+        align-items: center;
+    }
+    .reload{
+        padding-right: 10px;
+    }
+}

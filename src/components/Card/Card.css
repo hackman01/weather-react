@@ -1,0 +1,40 @@
+.card{
+    margin-right: 40px;
+    position: relative;
+    top: 0px;
+    
+    
+}
+.sub-card{
+    color: white;
+    height: 100%;
+    width: 9rem;
+    padding: 0;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    background-color: rgb(1, 1, 43);
+    
+}
+.card-top{
+   
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    padding: 5px 0 5px 0;
+    border-style: none;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(167, 165, 165);
+}
+.card-bottom{
+    padding-top: 10px;
+}
+.day{
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(109, 108, 108);
+    position: relative;
+    top: 15px;
+}
